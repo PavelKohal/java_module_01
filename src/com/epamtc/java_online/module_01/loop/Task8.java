@@ -5,7 +5,7 @@ package com.epamtc.java_online.module_01.loop;
  * запись как первого, так и второго числа.
  */
 
-public class Loop8 {
+public class Task8 {
 
     public static void main(String[] args) {
 
