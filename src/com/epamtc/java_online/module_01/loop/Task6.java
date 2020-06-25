@@ -9,12 +9,8 @@ public class Task6 {
 
     public static void main(String[] args) {
 
-        String str = "java";
-
-        System.out.printf("Численное обозначение символов, входящих строку %s: \n", str);
-
-        for (int i = 0; i < str.length(); i++) {
-            System.out.print(str.codePointAt(i) + " ");
+        for (int i = 33; i <= 126; i++) {
+            System.out.println(i + "-й символ - " + (char) i);
         }
     }
 }
